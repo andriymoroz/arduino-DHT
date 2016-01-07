@@ -55,7 +55,7 @@ public:
   }
   DHT_ERROR_t;
 
-  void setup(uint8_t pin, DHT_MODEL_t model=AUTO_DETECT);
+  DHT(uint8_t pin, DHT_MODEL_t model=AUTO_DETECT);
   void resetTimer();
 
   float getTemperature();

@@ -28,7 +28,7 @@
 
 #include "DHT.h"
 
-void DHT::setup(uint8_t pin, DHT_MODEL_t model)
+DHT::DHT(uint8_t pin, DHT_MODEL_t model)
 {
   DHT::pin = pin;
   DHT::model = model;
